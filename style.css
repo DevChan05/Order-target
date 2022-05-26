@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/pattern-background-mobile.svg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card{
+    max-width: 350px;
+    height: auto;
+    background-color:hsl(225, 100%, 98%) ;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.text-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: hsl(223, 47%, 23%);
+}
+
+.parraf{
+    text-align: center;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 0px 40px;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 20px;
+}
+
+.plan{
+    width: 90%;
+    height: 75px;
+    display: flex;
+    flex-direction:initial;
+    align-items:center;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: hsla(225, 100%, 94%, 35%);
+}
+
+.music-logo{
+    width: 15%;
+    margin-top: 25px;
+}
+
+.price .title-plan{
+color: hsl(223, 47%, 23%);
+font-weight: 900;
+}
+
+.price .price-plan{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.change{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.change:hover{
+    text-decoration: none;
+}
+
+.btn{
+    background-color: hsl(245, 75%, 52%);
+    font-weight: 900;
+    padding: 17px 80px;
+    border: none;
+    border-radius: 15px;
+    color: hsl(225, 100%, 98%);
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    font-family: ;
+}
+
+.btn:hover{
+    background-color: hsl(245, 75%, 52%, 70%);
+}
+
+.cancel{
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+@media (min-width: 375px){
+body{
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-size: contain 100%;
+}
+}
+
+
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
